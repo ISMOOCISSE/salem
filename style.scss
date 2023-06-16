@@ -1,0 +1,135 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background: url(img/background\ nav.png);
+    
+}
+.navi{
+    max-width:90% ;
+}
+
+li{
+    list-style: none;
+    text-align: right;
+    display: inline-block;
+}
+b{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+b a{
+    text-decoration: none;
+    border-bottom: none;
+}
+strong{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+strong a{
+    text-decoration: none;
+    border-bottom: none;
+}
+
+
+
+.orange{
+ color: #da491c;   
+}
+.white{
+    color: white;
+}
+.black{
+    color: black;
+}
+
+
+
+b:hover{
+    color: #da491c;
+}
+b a span:hover{
+    color: #da491c;
+}
+strong span a:hover{
+    color: #da491c;
+}
+
+.navespace{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.centreimg{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;  
+  background:url(img/Bgcentreimg.png) ;
+  align-items: center;
+  justify-content: center;
+  height: 65vh;
+}
+
+.centreimggg{
+    
+    background:url(img/Bgcentreimg.png) ;
+   
+  }
+
+.pousse{
+    margin-left: 60px;
+}
+
+
+.centreimgg{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: center;
+  }
+
+.centreimg img{
+    width: 400px;
+}
+
+/* LE BACKGROUND DE LA BARRE DE DEFILEMET */
+::-webkit-scrollbar {
+    background: rgba(255, 68, 0, 0.33);
+    width: 4px;
+  }
+
+  /* LA COULEUR DE LA BARRE QUI DEFILE */
+  ::-webkit-scrollbar-thumb {
+    background-color:#da491c ;
+
+  }
+
+footer img{
+    width: 100%;
+}
+footer{
+    background-color: rgb(56, 54, 54);
+}
+
+
+
+
+
+
